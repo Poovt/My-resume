@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+       <!-- Bootstrap CSS -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>My-resume</title>
+    <link href="./index.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="header">  
+      <h2 id="Name">Pooja Deglure </h2>
+      <p id="head">F U L L S T A C K D E V E L O P E</p>
+      <div class="info">
+      <span id="location">Hyderabad</span>|
+      <span id="contact">8328636239</span>|
+      <span id="email"> deglurep@gmail.com</span>|
+      <span>www.linkedin.com/in/pooja-deglure
+    </span>|
+    <span>https://github.com/Poovt</span>
+    </div>
+    </div>
+    <div class="obj">
+        <h3>O B J E C T I V E</h3>
+        <p>I am fullstack developer Seeking employment with an ambitious company where I can apply my knowledge of
+            full stack development and make valuable contributions.</p>
+    </div><hr/>
+    <div class="exp">
+        <div class="company">
+        <h3>W O R K E X P E R I E N C E
+        </h3>
+        <span id="l-exp">Fullstack developer</span>
+        <span id="l-exp">Inkprog Technologies PVT LTD</span>
+        <span id="l-exp">july, 2022 - present</span>
+        </div>
+        <div class="beej">
+            <h4>Beej Network-Frontend developer</h4>
+            <p>
+                <ul>
+                    <li>This is a client project ,this project was created for Investor and Founders Business
+                        Communication, where investors can invest in new startups and founders can request
+                        investments in their startups</li>
+                        <li>I am responsible for creating Frontend Functionality for this project, such as creating a
+                            dashboard for Founders and Investors.</li>
+                            <li>The MUI components are used for the table and progress bar.</li>
+                            <li>The Sass programming language is used for styling.</li>
+                            <li>For graphs, Rechrats is used.
+                            </li>
+                </ul>
+            </p>
+        </div>
+        <div class="lib">
+            <h4>Library management software-Fullstack
+            </h4>
+            <p>
+                <ul>
+                    <li>Developed a full-stack web-based library management system using MongoDB, Express,
+                        React, and Node.js to automate library processes, increase efficiency, and improve user
+                        experience.
+                        </li>
+                        <li>In this project, I created a front-end component, functionalities, and backend CRUD
+                            operations.
+                            </li>
+                            
+                </ul>
+            </p>
+        </div>
+        <div class="net">
+            <h4>Netflix -landingpage clone
+            </h4>
+            <p>
+                <ul>
+                    <li>created a replica of Netflix's homepage with many additional features using reactjs
+                        </li>
+                        <li>The Netflix homepage was designed in accordance with the design guidelines, with pixel
+                            perfect matching. The project also included the most recent React functionalities such
+                            as the router, hooks state, and so on
+                            </li>
+                            
+                </ul>
+            </p>
+        </div>
+
+    </div><hr/>
+    <div class="skills">
+        <h3>T E C H N I C A L S K I L L</h3>
+        <div class="skill">
+        <div class="first-line">
+            <p>HTML</p>
+            <p>Css</p>
+            <p>Javascript</p>
+        </div>
+        <div class="first-line">
+            <p>Bootstrap</p>
+            <p>Reactjs</p>
+            <p>Nodejs</p>
+        </div>
+        <div class="first-line">
+            <p>Express</p>
+            <p>Mongodb</p>
+            <p>MUI</p>
+        </div>
+        </div>
+        
+
+    </div><hr/>
+    <div class="edu">
+        <h3>E D U C A T I O N</h3>
+        <p id="Edu">BCA(Bachelor of computer application)</p>
+        <p>jun,2018-Nov,2021</p>
+        <p>Sri Saraswati degree college,Basavakalyan</p>
+        <p>Gulbarga University</p>
+            
+    </div>
+      <div class="Form my-5"> 
+        <form id="form">
+            <div>
+                <label class="form-label">Full Name</label>
+                <input  class="form-control"  id="exampleInputName" >
+               
+              </div>
+            <div class="mb-3">
+              <label  class="form-label">Email address</label>
+              <input  class="form-control" id="exampleInputEmail1" >
+             
+            </div>
+            <div class="mb-3">
+                <label  class="form-label">Contact Number</label>
+                <input  class="form-control" id="exampleInputContact" >
+               
+              </div>
+            <div class="mb-3">
+              <label class="form-label">Location</label>
+              <input class="form-control" id="exampleInputLocation">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Education</label>
+                <input  class="form-control" id="exampleInputEdu" >
+               
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Designation</label>
+                <input  class="form-control" id="exampleInputDesg">
+               
+              </div>
+            
+            <input type="button" id="btn" value="Submit">
+          </form>
+    </div> 
+     
+  
+    </div>
+
+    <script>
+      const text= document.querySelector("#exampleInputName")
+      const text2= document.querySelector("#exampleInputEmail1")
+      const text3= document.querySelector("#exampleInputContact")
+      // const text4= document.querySelector("#exampleInputLocation")
+      // const text5= document.querySelector("#exampleInputEdu")
+      // const text6= document.querySelector("#exampleInputDesg")
+
+      const button=document.querySelector("#btn")
+      // const output=document.querySelector("#output")
+      const name=document.querySelector("#Name")
+      const email=document.querySelector("#email")
+      const contact=document.querySelector("#contact")
+      // const location=document.querySelector("#location")
+      // const education=document.querySelector("#Edu")
+      // const design=document.querySelector("#head")
+
+      function fun1(){
+        name.innerHTML= text.value;
+        email.innerHTML=text2.value;
+        contact.innerHTML=text3.value;
+        // location.innerHTML=text4.value;
+        // education.innerHTML=text5.value;
+        // design.innerHTML=text6.value;
+      }
+      button.addEventListener('click',fun1)
+    </script>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- <script src="./index.js"></script> -->
+  </body>
+</html>
